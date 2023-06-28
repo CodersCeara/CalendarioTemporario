@@ -78,7 +78,7 @@ body {
 
 /* Estilo do iframe - dark mode*/
 .calendar-iframe {
-    filter: invert(1) hue-rotate(180deg);
+    filter: invert(1) hue-rotate(180deg) saturate(0) brightness(2);
     background-color: #000;
     display: flex;
     justify-content: center;
