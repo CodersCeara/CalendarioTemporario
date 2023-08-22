@@ -58,6 +58,26 @@ body {
     transition: all .12s ease;
 }
 
+.nav-link a {
+    background: none;
+    color: inherit; 
+    font-size: inherit; 
+    font-weight: inherit;
+    letter-spacing: inherit;
+    margin: 0;
+    padding: 0; 
+    border: none; 
+    transition: none; 
+    text-decoration: none; 
+}
+
+.nav-link:hover a {
+    background: none;
+    color: inherit;
+    border: none;
+}
+
+
 .main {
     width: 100%;
     height: 100dvh;
